@@ -13,8 +13,11 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    Você está logado
 
-                    You are logged in!
+                    <div class="d-flex justify-content-center flex-row">
+                        <a href="{{ route('rotulo.create') }}" class="btn btn-primary">Enviar imagens</a>
+                    </div>
                 </div>
             </div>
         </div>
